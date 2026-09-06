@@ -30,3 +30,12 @@ SELECT
 FROM orders o
 JOIN products p
     ON o.product_id = p.product_id;
+-- 5. Revenue by category
+SELECT
+    p.category,
+    SUM(p.price * o.quantity) AS revenue
+FROM orders o
+JOIN products p
+    ON o.product_id = p.product_id
+GROUP BY p.category
+ORDER BY revenue DESC;
