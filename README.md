@@ -12,11 +12,11 @@ I created a small synthetic dataset of users, products and orders and used SQL t
 - Revenue by category
 
 ## Results
-- Total revenue: 35,600
-- Average order value: 3,560
-- Top product by revenue: Keyboard — 10,500
-- Top customer by spending: Kate — 8,200
-- Top category by revenue: Electronics — 20,500
+Total revenue: 35,600
+Average order value: 3,560
+Top product: Keyboard — 10,500
+Top customer: Kate — 8,200
+Top category: Electronics — 25,500
 
 ## SQL concepts
 - SELECT
