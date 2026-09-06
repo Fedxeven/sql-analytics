@@ -1,8 +1,8 @@
 # SQL Analytics
 Small SQL project for practicing data analysis.
-## About the project
 
-I created a small dataset of users, products and orders and used SQL to answer basic business questions.
+## About the project
+I created a small synthetic dataset of users, products and orders and used SQL to answer basic business questions.
 
 ## What I analyzed
 - Total revenue
@@ -10,6 +10,13 @@ I created a small dataset of users, products and orders and used SQL to answer b
 - Orders and spending by user
 - Average order value
 - Revenue by category
+
+## Results
+- Total revenue: 35,600
+- Average order value: 3,560
+- Top product by revenue: Keyboard — 10,500
+- Top customer by spending: Kate — 8,200
+- Top category by revenue: Electronics — 20,500
 
 ## SQL concepts
 - SELECT
