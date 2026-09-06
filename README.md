@@ -1,14 +1,23 @@
 # SQL Analytics
-Small SQL projects for practicing data analysis.
-## What I practice
+Small SQL project for practicing data analysis.
+## About the project
 
-- Filtering and sorting data
-- GROUP BY and aggregations
-- JOINs
-- Subqueries and CTEs
-- Window functions
-- Basic analytical metrics
+I created a small dataset of users, products and orders and used SQL to answer basic business questions.
 
-## Project
+## What I analyzed
+- Total revenue
+- Revenue by product
+- Orders and spending by user
+- Average order value
+- Revenue by category
 
-An analysis of customers, orders and products using SQL.
+## SQL concepts
+- SELECT
+- JOIN
+- GROUP BY
+- Aggregate functions
+- ORDER BY
+
+## Files
+- `data.sql` — tables and sample data
+- `queries.sql` — analytical SQL queries
