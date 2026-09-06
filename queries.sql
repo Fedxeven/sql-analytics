@@ -24,3 +24,9 @@ JOIN products p
     ON o.product_id = p.product_id
 GROUP BY u.name
 ORDER BY total_spent DESC;
+-- 4. Average order value
+SELECT
+    AVG(p.price * o.quantity) AS average_order_value
+FROM orders o
+JOIN products p
+    ON o.product_id = p.product_id;
