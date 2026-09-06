@@ -12,3 +12,15 @@ JOIN products p
     ON o.product_id = p.product_id
 GROUP BY p.product_name
 ORDER BY revenue DESC;
+-- 3. Orders and revenue by user
+SELECT
+    u.name,
+    COUNT(o.order_id) AS orders_count,
+    SUM(p.price * o.quantity) AS total_spent
+FROM users u
+JOIN orders o
+    ON u.user_id = o.user_id
+JOIN products p
+    ON o.product_id = p.product_id
+GROUP BY u.name
+ORDER BY total_spent DESC;
